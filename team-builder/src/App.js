@@ -26,14 +26,14 @@ import './App.css';
 
 function App() {
   const [teamMembers, setTeamMembers] = React.useState([{
-      name: "steve",
-      email: "steve@whatever.com",
-      role: "dishwasher"
+      name: "Ron",
+      email: "ron@ron.com",
+      role: "CEO"
     },
     {
-      name: "ellie",
-      email: "elili@jfkldasj.com",
-      role: "cook"
+      name: "Jamie",
+      email: "jamie@jamie.com",
+      role: "CTO"
     }
   ])
 
@@ -51,7 +51,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My team</h1>
+      <h1>The Squad</h1>
 
       <NewTeamMemberForm 
         isEditing={isEditing}
