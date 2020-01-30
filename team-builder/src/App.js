@@ -1,38 +1,16 @@
-// import React, { useState } from 'react';
-// import Form from './components/Form'
-
-// const App = () => {
-//     const [teamList, setTeamList] = useState([]);
-
-//     const addToTeamList = teamMember => {
-//         setTeamList([...teamList, teamMember]);
-//     }
-
-// return (
-//     <div>
-
-//         <Form addToTeamList={addToTeamList}/> 
-        
-//     </div>
-// )
-
-// }
-
-// export default App;
-
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   const [teamMembers, setTeamMembers] = React.useState([{
-      name: "Ron",
-      email: "ron@ron.com",
+      name: "Brandy",
+      email: "brandy@brandy.com",
       role: "CEO"
     },
     {
-      name: "Jamie",
-      email: "jamie@jamie.com",
+      name: "Raj",
+      email: "raj@raj.com",
       role: "CTO"
     }
   ])
